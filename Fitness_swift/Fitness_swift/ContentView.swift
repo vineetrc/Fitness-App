@@ -35,6 +35,11 @@ struct new_view: View {
             }
             
             Text("Sample")
+            
+            ZStack {
+                Text("Sample1")
+                Text("Sample2")
+            }
         }
     }
 }
