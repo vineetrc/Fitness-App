@@ -20,9 +20,15 @@ export default function Home() {
 
       <Form>
       <div class="form-group">
-        <label for="exampleFormControlInput1">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"/>
-      </div>
+    <label for="exampleFormControlSelect1">How many pushups?</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
         <button type="submit" class="btn btn-primary">Submit</button>
       </Form>
     </div>
