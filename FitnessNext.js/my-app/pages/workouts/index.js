@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '../../styles/Home.module.css'
 import Link from 'next/link'
 import Button from 'react-bootstrap/Button'
+import Form from 'react-bootstrap/Form'
 
 export default function Home() {
   return (
@@ -16,6 +17,14 @@ export default function Home() {
           Home
         </Link>
       </Button>
+
+      <Form>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"/>
+      </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </Form>
     </div>
   )
 }
