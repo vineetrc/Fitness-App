@@ -13,10 +13,9 @@ struct AddWorkoutPage: View {
             HStack {
                 Spacer()
                 Button(action: {
-                
+                    
                 }) {
                     Text("Add workout button")
-                        
                 }.padding()
             }
         }
