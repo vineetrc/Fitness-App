@@ -21,12 +21,20 @@ struct ContentView_Previews: PreviewProvider {
 
 struct new_view: View {
     var body: some View {
-        Button(action: {
+        VStack {
+            Button(action: {
             
-        }) {
-            Text("Hello")
-                .bold()
-                .foregroundColor(.blue)
+            }) {
+                Text("Hello")
+                    .bold()
+                    .foregroundColor(.blue)
+            }
+            HStack {
+                Text("Sample1")
+                Text("Sample2")
+            }
+            
+            Text("Sample")
         }
     }
 }
