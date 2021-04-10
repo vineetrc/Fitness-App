@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>517129144427-6ij34noh8mtt0n3gplehlpai3rcfedi9.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.517129144427-6ij34noh8mtt0n3gplehlpai3rcfedi9</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBe4LbahbvnqjqRZOTcDVvtDtYzQbz8WNU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>517129144427</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Abhi-Wangoo.Fitness-swift</string>
+	<key>PROJECT_ID</key>
+	<string>fitnessapp-b4e78</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fitnessapp-b4e78.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:517129144427:ios:9255ca36278998fb27892e</string>
+</dict>
+</plist>
