@@ -9,13 +9,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        new_view()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+    }
+}
+
+struct new_view: View {
+    var body: some View {
+        Button(action: {
+            
+        }) {
+            Text("Hello")
+                .bold()
+                .foregroundColor(.blue)
+        }
     }
 }
