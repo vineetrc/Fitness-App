@@ -7,12 +7,13 @@
 
 import SwiftUI
 
+
 struct AddWorkoutPage: View {
     var body: some View {
         VStack {
             HStack {
                 Spacer()
-                Button(action: {
+                Button(action:  {
                 
                 }) {
                     Text("Add workout button")
